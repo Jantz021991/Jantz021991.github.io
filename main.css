@@ -1,0 +1,233 @@
+
+/*************************************
+GENERAL
+**************************************/
+a {
+ text-decoration: none;
+ }
+
+img {
+max-width: 100%;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   background: url('https://www.planwallpaper.com/static/images/recycled_texture_background.jpg');
+ }
+
+
+ #wrapper {
+   max-width: 940px;
+   margin: 0 auto;
+   padding: 0 5%;
+
+ }
+
+ a {
+   color: #6ab47b;
+
+ }
+
+ h3 {
+     margin: 0 0 1em 0;
+ }
+
+
+/*************************************
+HEADING
+**************************************/
+
+header {
+  float: left;
+  margin: 0 0 20px 0;
+  padding: 2px 0 0 0;
+  width: 100%;
+
+}
+
+#logo {
+   text-align: center;
+   margin: 0;
+
+ }
+
+ h1  {
+
+ margin: 10px 0;
+ font-size: 1.75em;
+ font-weight: normal;
+ line-height: 0.5;
+ text-align: center;
+ color: 	ghostwhite;
+
+ }
+
+ h2  {
+
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
+ font-size: 1.00em;
+ font-weight: normal;
+ margin: -5px 0 0;
+ color: ghostwhite;
+ text-align: center;
+ padding-top: 50px;
+ }
+
+
+h3  {
+
+
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 15px 0 0;
+}
+
+
+
+
+
+
+
+/*************************************
+NAVIGATION
+**************************************/
+ nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+  }
+
+  nav ul  {
+    list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+  display: inline-block;
+
+}
+
+
+
+/*************************************
+FOOTER
+**************************************/
+ footer {
+    font-size: 0.75em;
+	text-align: center;
+	text-decoration: none;
+	align-content: center;
+    padding-top: 50px;
+    clear: both;
+    color: #ccc;
+}
+
+/*************************************
+PAGE:
+**************************************/
+.mydiv {background: lightblue; width:250px; height: 250px;}
+
+.body-text{
+    font-size: 0.88em;
+	text-align: center;
+	text-decoration: none;
+	align-content: center;
+    padding-top: 50px;
+    margin-left: 150px;
+    border:1px;
+    margin-right: 150px;
+    color: whitesmoke;
+
+}
+
+.sample-text {
+    font-size: 0.75em;
+	text-align: center;
+	text-decoration: none;
+	align-content: center;
+    padding-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: whitesmoke;
+
+}
+.circle {
+	    align-content:center;
+        height:175px;
+		width: 150px;
+        border: 1px solid black;
+        border-radius: 100px;
+        background-size: 90%;   
+        background-repeat: no-repeat;
+        background-position:center;
+		margin-left:650px;
+    }
+.button {
+    background-color:   #D9D9E8;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 5px;
+    cursor: pointer;
+}
+
+ /*************************************
+PAGE: ABOUT
+**************************************/
+.profile-photo {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto 30px;
+    border-radius: 5px;
+}
+
+/*************************************
+COLORS
+**************************************/
+
+
+ /* green header*/
+  header {
+   background: #6ab47b;
+   border-color: #599a68;
+ }
+
+ /* logo text*/
+
+ h1,h2  {
+    color: white;
+}
+
+/* nav background on mobile devices*/
+nav {
+   background: #599a6b;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/* selected nav link color*/
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+/* site body*/
+body {
+    background-color: snow;
+    color: #000;
+}
+
+ul{
+    display: block;
+}
+.headings{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
